@@ -1,0 +1,86 @@
+.receive {
+    padding-top: 140px;
+    &__title {
+        margin-bottom: 77px;
+    }
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 35px;
+    }
+    &__item {
+        text-align: center;
+        width: 385px;
+        height: 335px;
+        background: #7AC16F;
+        box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+    }
+    &__item-last {
+        width: 385px;
+        height: 335px;
+        background: #FFFFFF;
+        box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+    }
+    &__item-image {
+        display: block;
+        text-align: center;
+        margin: -27px auto 30px;
+    }
+    &__item-title {
+        font-size: 32px;
+        line-height: 39px;
+        color: #FFFFFF;
+        margin-bottom: 10px;
+    }
+    &__item-descr {
+        font-family: 'Montserrat Regular', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #413B37;
+    }
+    &__item-last {
+        padding-top: 48px;
+        padding-left: 40px;
+    }
+    &__item-last-title {
+        font-size: 32px;
+        line-height: 39px;
+        color: #7AC16F;
+        margin-bottom: 20px;
+    }
+    &__button {
+        display: block;
+        margin: 0 auto;
+        width: 425px;
+        height: 60px;
+    }
+
+    &__menu-item {
+        position: relative;
+        font-family: 'Montserrat Regular', sans-serif;
+        padding-left: 32px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 20px;
+        color: #413B37;
+        &:last-child {
+            margin-bottom: 0;
+        }
+        &::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 15px;
+            width: 3px;
+            height: 3px;
+            border-radius: 100%;
+            background-color: #413B37;
+        }
+    }
+}

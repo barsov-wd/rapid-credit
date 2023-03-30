@@ -1,0 +1,60 @@
+.reviews {
+    padding-top: 140px;
+    &__title {
+        margin-bottom: 50px;
+    }
+    &__items {
+        margin-bottom: 55px;
+    }
+    &__item {
+        .wrapper {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    &__block {
+        padding: 30px 25px 37px;
+        width: 790px;
+        height: 389px;
+        background: #FFFFFF;
+        box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+    }
+    &__block-inner {
+        display: flex;
+        align-items: flex-start;
+        gap: 25px;
+    }
+    &__block-name {
+        font-size: 32px;
+        line-height: 39px;
+        color: #7AC16F;
+        margin-bottom: 10px;
+    }
+    &__block-data {
+        font-family: 'Montserrat Regular', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 18px;
+        color: #413B37;
+        margin-bottom: 15px;
+    }
+    &__block-descr {
+        width: 481px;
+        font-family: 'Montserrat Regular', sans-serif;
+        font-weight: 400;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #413B37;
+    }
+    &__arrows {
+        text-align: center;
+    }
+    &__arrow {
+        cursor: pointer;
+    }
+    &__arrow-next {
+        margin-left: 20px;
+    }
+}

@@ -1,0 +1,32 @@
+.header {
+    padding-top: 30px;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo {
+        font-size: 32px;
+        line-height: 39px;
+        color: #6C584C;
+        &--color {
+            color: #7AC16F;
+        }
+    }
+    &__button {
+        border: none;
+        outline: none;
+        cursor: pointer;
+        border: 2px solid #6C584C;
+        border-radius: 15px;
+        font-size: 20px;
+        line-height: 24px;
+        color: #6C584C;
+        width: 405px;
+        height: 60px;
+        background-color: transparent;
+    }
+    &__button-mobile {
+        display: none;
+    }
+}

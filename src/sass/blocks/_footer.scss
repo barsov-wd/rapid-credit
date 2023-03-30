@@ -1,0 +1,47 @@
+.footer {
+    padding-top: 65px;
+    padding-bottom: 24px;
+    background-color: #fff;
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.15);
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    &__logo {
+        font-size: 32px;
+        line-height: 39px;
+        color: #6C584C;
+
+        &--color {
+            color: #7AC16F;
+        }
+    }
+    &__button {
+        width: 405px;
+        height: 60px;
+    }
+    &__link {
+        font-size: 32px;
+        line-height: 39px;
+        text-decoration-line: underline;
+        color: #413B37;
+    }
+    &__text {
+        font-family: 'Montserrat Regular', sans-serif;
+        text-align: center;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        color: #000000;
+        margin-bottom: 24px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+    &__link-medium {
+        display: none;
+    }
+}
